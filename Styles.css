@@ -1,10 +1,55 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.toolbar{
+    margin-top: -2.2em;
+    position:fixed !important;
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
 }
 /*Header*/
+.cabecera{
+    margin: 0.5em;
+    margin-top: 34px;
+    border-radius: 5px;
+    padding: 0.5em;
+    background:linear-gradient(#773d71,#A25B9B) ;
+    display: flex;
+}
 
+.text-cabecera{
+    margin: .7em 0.3em;
+    color: azure;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}
+
+p{
+    font-size: 0.7em;
+    line-height:1.2em;
+}
+
+.menu{
+    margin: 0.5em;
+    border-radius: 5px;
+    padding: 0.5em;
+    display: flex;
+    background-color: #ded2e3;
+}
+
+hr{
+    width: 100%;
+    color: #000;
+}
 /*Asignatura*/
 
 /*Practicando*/
