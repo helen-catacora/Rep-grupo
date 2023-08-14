@@ -13,11 +13,11 @@
 }
 /*Header*/
 .cabecera{
-    margin: 0.5em;
+    margin: 0.5em 0.8em;
     margin-top: 34px;
     border-radius: 5px;
     padding: 0.5em;
-    background:linear-gradient(#773d71,#A25B9B) ;
+    background:linear-gradient(#793b72,#a25b9a) ;
     display: flex;
 }
 
@@ -38,18 +38,43 @@ p{
     line-height:1.2em;
 }
 
-.menu{
+#menu{
+    background: #ded2e3;
     margin: 0.5em;
     border-radius: 5px;
-    padding: 0.5em;
-    display: flex;
-    background-color: #ded2e3;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu a{
+    color: #5a2d6c;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.65em;
+    display: block;
+    padding: 5px 6px;
+}
+
+#menu a:hover{
+    color: #d31141;
+}
+
+#menu img{
+    vertical-align: middle;
 }
 
 hr{
     width: 100%;
     color: #000;
 }
+
+
 /*Asignatura*/
 
 /*Practicando*/
