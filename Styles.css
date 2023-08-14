@@ -1,5 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+.forabg {
+    margin-bottom: 4px;
+    clear: both;
+    background-color: white;
+    /*background-image: url(https://2img.net/i/fa/prosilver_magenta/bg_list.gif); color morado*/
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    border: 2px solid #fff;
+    padding: 0 5px;
+}
+
+/*
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #5C577E;
+    background-color: #fff;
+    background-image: url(https://2img.net/i/fa/empty.gif);
+    background-attachment: scroll;
+    font-size: 10px;
+    height: auto;
+    padding: 10px 0;
+}*/
+
+html {
+    font-size: 100%;
+    height: 100%;
+}
+
+div {
+    display: block;
 }
