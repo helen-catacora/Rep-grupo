@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Verdana,Arial,Helvetica,sans-serif;
 }
+
 .toolbar{
     margin-top: -2.2em;
     position:fixed !important;
@@ -40,9 +41,10 @@ p{
 
 #menu{
     background: #ded2e3;
-    margin: 5px 1em;
+    margin: 5px 1.2em;
     border-radius: 5px;
     font-size: 0.65em;
+    padding: 0 10px;
 }
 
 #menu ul{
@@ -56,10 +58,11 @@ p{
 
 #menu a{
     color: #5a2d6c;
-    font-weight: 700;
+    font-size: 11px;
+    font-weight: 900;
     text-decoration: none;
-    display: block;
-    padding: 5px 6px;
+    margin: 5px 3px;
+    display: flex;
 }
 
 #menu a:hover{
@@ -73,7 +76,7 @@ p{
 
 hr{
     width: 100%;
-    color: #000;
+    border-color: #fff;
 }
 
 #busqueda{
