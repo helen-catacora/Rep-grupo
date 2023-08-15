@@ -54,6 +54,7 @@ p{
 #menu li{
     float: left;
     margin-top: 5px;
+    padding: 1.5px;
 }
 
 #menu a{
