@@ -10,8 +10,34 @@
     height: 30px;
     width: 100%;
     background-color: black;
+    color: #fff;}
+
+
+.icon-foro{
+    display: inline-block!important;
+    visibility: visible!important;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(https://2img.net/i/fa/i/toolbar/pa0.png);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.text-foro{
+    display:inline-flex;
+    text-decoration: none!important;
+    vertical-align: top;
+    margin-top: 4px;
     color: #fff;
 }
+
+.Buscar{
+    display: inline-flex;
+    vertical-align:super;
+    margin-top: 5px;
+}
+
 /*Header*/
 .cabecera{
     margin: 0px 0.8em;
