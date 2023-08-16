@@ -13,7 +13,7 @@
     color: #fff;}
 
 
-.icon-foro{
+.toolbar .icon-foro{
     display: inline-block!important;
     visibility: visible!important;
     content: "";
@@ -24,7 +24,7 @@
     height: 30px;
 }
 
-.text-foro{
+.toolbar .text-foro{
     display:inline-flex;
     font-size: 15px;
     text-decoration: none!important;
@@ -35,19 +35,20 @@
     color: #fff;
 }
 
-.Buscar{
+.toolbar .Buscar{
     display: inline-flex;
     vertical-align:super;
 }
 
 
 .Buscar .search{
-    width: 200px;
+    width: 170px;
     height: 24px;
     padding: 0;
     border: 0;
     border-radius: 5px;
     margin-top: -2px;
+    padding-left: 30px;
 }
 
 .Buscar .lupa , .share .icon-fb ,.share .icon-tw ,
@@ -60,7 +61,7 @@
     cursor: pointer;
 }
 
-.share{
+.toolbar .share{
     display: inline-block;
     vertical-align:super;
     margin-left: 15px;
@@ -68,7 +69,7 @@
     line-height: 32px!important;
 }
 
-.lupa{
+.Buscar .lupa{
     margin-top: -5px;
     background-position: -30px 0;
 }
@@ -93,7 +94,13 @@
     background-position: -180px 0 !important;
 }
 
-#login{
+@media screen and (max-width: 700px) {
+    .toolbar .ocultar-div{
+        display:none;
+    }
+}
+
+.toolbar #login{
     float: right;
     font-size: 14px;
     margin-top: 6px;
@@ -101,20 +108,20 @@
     margin-right: 45px;
 }
 
-#login a{
+.toolbar #login a{
     color: #fff;
     text-decoration: none;
     margin-left: 6px;
 }
 
-.icon-hide{
+.toolbar .icon-hide{
     display: inline-block;
     margin: -6px 15px;
     background-position: -210px 0 !important;
 }
 
 /*Header*/
-.cabecera{
+#cabecera{
     margin: 0px 0.8em;
     margin-top: 36px;
     border-radius: 6px;
@@ -123,7 +130,7 @@
     display: flex;
 }
 
-.text-cabecera{
+#cabecera .text-cabecera{
     margin: .7em 0.3em;
     color: azure;
 }
@@ -135,7 +142,7 @@ h1{
     margin-inline-start: 0px;
 }
 
-p{
+.cabecera .text-cabecera p{
     font-size: 0.7em;
     line-height:1.2em;
 }
@@ -167,7 +174,7 @@ p{
     display: flex;
 }
 
-#menu a:hover{
+#menu a:hover, #extra .message:hover{
     color: #d31141;
 }
 
@@ -176,7 +183,7 @@ p{
     margin: 0;
 }
 
-hr{
+#menu hr{
     width: 100%;
     border-color: #fff;
 }
@@ -189,7 +196,7 @@ hr{
     height: 16px;
 }
 
-.input-search{
+#busqueda .input-search{
     background: url(https://2img.net/i/fa/sprite_prosilver_navbar.png) no-repeat top left;
     background-position: 0 -701px;
     padding-left: 17px;
@@ -199,7 +206,7 @@ hr{
     font-size: 11px;
 }
 
-.input-Button{
+#busqueda .input-Button{
     font-size: 11px;
     text-align: center;
 }
@@ -210,20 +217,51 @@ hr{
 
 .Sponsor{
     display: block;
-    width: 600px;
-    height: 100px;
-    background-color: aqua;
+    width: 700px;
+    height: 80px;
     left: inherit!important;
     top: inherit!important;
     right: inherit!important;
     bottom: inherit!important;
-    margin: 0 auto!important;
+    margin: -10px auto!important;
 }
 
-.time{
-    color:#5C577E;
-    margin:5px 0px;
+.Sponsor .T-sponsor{
+    font-size: 16px;
+    font-weight: 700;
 }
+
+.Sponsor span a{
+    font-size: 10px;
+    float: right;
+    color: #000;
+    text-decoration: none;
+}
+
+.Sponsor span a:hover{
+    text-decoration: underline;
+}
+
+.Sponsor .ad{
+    display: block;
+    width: 700px;
+    height: 50px;
+    background-color: #8f7d8d;
+}
+
+#extra .time{
+    color:#5C577E;
+    margin:10px 0px;
+    font-size: 0.7em;
+}
+
+#extra .message{
+    color: #5A2D6C;
+    text-decoration: none;
+    margin:5px 0px;
+    font-size: 0.7em;
+}
+
 
 /*Asignatura*/
 
