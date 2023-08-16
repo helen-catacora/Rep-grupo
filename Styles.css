@@ -20,10 +20,7 @@ body{
 .toolbar .icon-foro{
     display: inline-block!important;
     visibility: visible!important;
-    content: "";
-    background-repeat: no-repeat;
-    background-image: url(https://2img.net/i/fa/i/toolbar/pa0.png);
-    background-size: 30px;
+    background-image: url(https://2img.net/i/fa/i/toolbar/pa0.png) no-repeat 30px;
     width: 30px;
     height: 30px;
 }
@@ -33,9 +30,7 @@ body{
     font-size: 15px;
     text-decoration: none!important;
     vertical-align: top;
-    margin-top: 6px;
-    margin-left: -5px;
-    margin-right: 10px;
+    margin: 6px 10px 0px -5px;
     color: #fff;
 }
 
@@ -48,10 +43,8 @@ body{
 .Buscar .search{
     width: 170px;
     height: 24px;
-    padding: 0;
-    border: 0;
     border-radius: 5px;
-    margin-top: -2px;
+    margin-top: -3px;
     padding-left: 30px;
 }
 
@@ -107,10 +100,8 @@ body{
 .toolbar #login{
     float: right;
     font-size: 14px;
-    margin-top: 6px;
-    padding: 2px;
-    margin-right: 45px;
-}
+    margin: 6px 45px;
+    padding: 2px;}
 
 .toolbar #login a{
     color: #fff;
@@ -126,8 +117,7 @@ body{
 
 /*Header*/
 #cabecera{
-    margin: 0px 0.8em;
-    margin-top: 36px;
+    margin: 36px 0.8em 0 0.8em;
     border-radius: 6px;
     padding: 0.5em;
     background:linear-gradient(#763c70,#9f5897,#a25b9a) ;
