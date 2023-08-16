@@ -10,7 +10,10 @@
 /*Practicando*/
 
 /*Divirtiendos*/
-
+.contenedor{
+    margin:auto;
+    display: grid;
+}
 /*Imagenes*/
 
 /*Footer*/
