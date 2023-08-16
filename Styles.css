@@ -4,6 +4,10 @@
     font-family: Verdana,Arial,Helvetica,sans-serif;
 }
 
+body{
+    overflow-y: scroll;
+}
+
 .toolbar{
     margin-top: -2.3em;
     position:fixed !important;
