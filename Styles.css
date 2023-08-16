@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /*Header*/
 
@@ -10,11 +9,6 @@
 /*Practicando*/
 
 /*Divirtiendos*/
-
-div {
-    display: block;
-}
-
 .divirtiendonos{
     margin-bottom: 4px;
     clear: both;
@@ -26,56 +20,6 @@ div {
     padding: 0 5px;
 }
 
-span.corners-top {
-    background-image: url(https://2img.net/i/fa/prosilver/corners_left.gif);
-}
-
-span.corners-top {
-    background-image: none;
-    background-position: 0 0;
-    margin: 0 -5px;
-}
-
-ul {
-    list-style-type: none;
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-ul.topiclist {
-    list-style-type: none;
-    margin: 0;
-    background-image: url(https://2img.net/i/fa/empty.gif);
-    background-repeat: repeat-x;
-    color: #5C577E;
-}
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-.table-title, .table-title h2 {
-    display: inline;
-    font-size: 1em;
-    color: #fff;
-}
-
-ul.topiclist dt, ul.topiclist dd.dterm {
-    display: block;
-    float: left;
-    width: 60%;
-    font-size: 1.1em;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 /*Imagenes*/
 
 /*Footer*/
