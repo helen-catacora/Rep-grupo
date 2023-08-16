@@ -5,11 +5,11 @@
 }
 
 .toolbar{
-    margin-top: -2.2em;
+    margin-top: -2.3em;
     position:fixed !important;
-    height: 30px;
+    height: 32px;
     width: 100%;
-    background-color: black;
+    background-color: #333333;
     color: #fff;}
 
 
@@ -26,25 +26,100 @@
 
 .text-foro{
     display:inline-flex;
+    font-size: 15px;
     text-decoration: none!important;
     vertical-align: top;
-    margin-top: 4px;
+    margin-top: 6px;
+    margin-left: -5px;
+    margin-right: 10px;
     color: #fff;
 }
 
 .Buscar{
     display: inline-flex;
     vertical-align:super;
-    margin-top: 5px;
+}
+
+
+.Buscar .search{
+    width: 200px;
+    height: 24px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.Buscar .lupa , .share .icon-fb ,.share .icon-tw ,
+.share .icon-email, .share .icon-rss,#login .icon-hide
+{
+    position: absolute;
+    background-image: url(https://2img.net/i/fa/i/toolbar/toolbar.png);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.share{
+    display: inline-block;
+    vertical-align:super;
+    margin-left: 15px;
+    font-size: 15px;
+    line-height: 32px!important;
+}
+
+.lupa{
+    margin-top: -5px;
+    background-position: -30px 0;
+}
+
+.icon-fb {
+    margin-left: 10px;
+    background-position: -60px 0 !important;
+} 
+
+.icon-tw {
+    margin-left: 40px;
+    background-position: -90px 0 !important;
+} 
+
+.icon-email{
+    margin-left: 70px;
+    background-position: -150px 0 !important;
+}
+
+.icon-rss{
+    margin-left: 100px;
+    background-position: -180px 0 !important;
+}
+
+#login{
+    float: right;
+    font-size: 14px;
+    margin-top: 6px;
+    padding: 2px;
+    margin-right: 45px;
+}
+
+#login a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.icon-hide{
+    display: inline-block;
+    margin: -6px 15px;
+    background-position: -210px 0 !important;
 }
 
 /*Header*/
 .cabecera{
     margin: 0px 0.8em;
-    margin-top: 34px;
+    margin-top: 36px;
     border-radius: 6px;
     padding: 0.5em;
-    background:linear-gradient(#793b72,#a25b9a) ;
+    background:linear-gradient(#763c70,#9f5897,#a25b9a) ;
     display: flex;
 }
 
@@ -127,6 +202,27 @@ hr{
 .input-Button{
     font-size: 11px;
     text-align: center;
+}
+
+#extra{
+    margin:  1.2em;
+}
+
+.Sponsor{
+    display: block;
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+    left: inherit!important;
+    top: inherit!important;
+    right: inherit!important;
+    bottom: inherit!important;
+    margin: 0 auto!important;
+}
+
+.time{
+    color:#5C577E;
+    margin:5px 0px;
 }
 
 /*Asignatura*/
