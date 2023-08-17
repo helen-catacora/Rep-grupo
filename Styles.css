@@ -1,5 +1,6 @@
-*{
+* {
     margin: 0;
+<<<<<<< HEAD
     padding: 0px;
     font-family: Verdana,Arial,Helvetica,sans-serif;
 }
@@ -262,13 +263,229 @@ h1{
 }
 
 
+=======
+    padding: 0;
+}
+>>>>>>> Divirtiendonos
 
-/*Asignatura*/
+html {
+    font-size: 100%;
+    height: 100%;
+}
 
-/*Practicando*/
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #5C577E;
+    background-color: #fff;
+    background-image: url(https://2img.net/i/fa/empty.gif);
+    background-attachment: scroll;
+    font-size: 10px;
+    height: auto;
+    padding: 10px 0;
+}
 
-/*Divirtiendos*/
+h1.page-title {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #5A2D6C;
+    font-size: 2em;
+    margin: .8em 0 .2em;
+}
 
-/*Imagenes*/
+h1.gallery-title {
+    display: inline;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+}
 
-/*Footer*/
+h2 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #5A2D6C;
+    font-size: 2em;
+    margin: .8em 0 .2em;
+}
+
+h1.solo {
+    margin-bottom: 1em;
+}
+
+.table-title,.table-title h2 {
+    display: inline;
+    font-size: 1em;
+    color: #fff;
+}
+
+a.forumtitle {
+    color: #5A2D6C;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.divirtiendonos {
+    margin-bottom: 4px;
+    clear: both;
+    background-color: #763B6F;
+    background-image: url(https://2img.net/i/fa/prosilver_magenta/bg_list.gif);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    border: 2px solid #fff;
+    padding: 0 5px;
+}
+
+
+ul.topiclist {
+    list-style-type: none;
+    margin: 0;
+    background-image: url(https://2img.net/i/fa/empty.gif);
+    background-repeat: repeat-x;
+    color: #5C577E
+}
+
+ul.topiclist li {
+    display: block;
+    margin: 0;
+}
+
+ul.topiclist li.row dl {
+    padding: 2px 0;
+}
+
+ul.forums li.row dl {
+    min-height: 0;
+}
+
+ul.topiclist dt,ul.topiclist dd.dterm {
+    display: block;
+    float: left;
+    width: 60%;
+    font-size: 1.1em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul.topiclist dfn {
+    display: none;
+}
+
+ul.topics li.header dl.icon dt {
+    padding-right: 50px;
+}
+
+ul.topics dt,ul.topics dd.dterm {
+    padding-left: 45px;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+ul.topics dd {
+    display: block;
+    float: left;
+}
+
+ul.forums {
+    background-color: #F4EFF4;
+    background-image: none;
+}
+ul.forums dd {
+    border-color: #fff;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+
+li.header dt,li.header dd {
+    line-height: 1em;
+    border-left-width: 0;
+    margin: 2px 0 4px;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 1em;
+    font-family: Arial,Helvetica,sans-serif,Verdana,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+
+li.row {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+li.row:hover {
+    background-color: #F6F4D0;
+}
+
+
+ul.topiclist dd {
+    border-left: 1px solid #fff;
+    display: block;
+    float: left;
+    padding: 4px 0;
+}
+
+ul.topiclist li.header dl dd {
+    border: none;
+}
+
+dd.lastpost span,ul.topiclist dd.searchby span,ul.topiclist dd.info span,ul.topiclist dd.time span,dd.redirect span,dd.moderation span {
+    display: block;
+    padding-left: 5px;
+}
+
+ul.pmlist dt {
+    padding-left: 45px;
+}
+
+.hierarchy {
+    display: inline;
+    text-transform: none;
+    border: none;
+    font-size: 1em;
+}
+
+dd.lastpost {
+    width: 20%;
+    font-size: 1.1em;
+}
+
+dd.posts,dd.topics,dd.views {
+    width: 8%;
+    text-align: center;
+    line-height: 2.2em;
+    font-size: 1.2em;
+    border: none;
+}
+
+#tabs:after,.post:after,.navbar:after,fieldset dl:after,ul.topiclist dl:after,ul.linklist:after,dl.polls:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+table span.gen {
+    margin-left: 5px;
+}
+
+span.corners-top {
+    background-image: none;
+    background-position: 0 0;
+    margin: 0 -5px;
+}
+
+span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom span {
+    font-size: 1px;
+    line-height: 1px;
+    display: block;
+    height: 5px;
+    background-repeat: no-repeat;
+}
