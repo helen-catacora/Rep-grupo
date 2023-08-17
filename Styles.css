@@ -303,11 +303,140 @@ h1.solo {
 }
 
 .table-title,.table-title h2 {
+    font-size: 1em!important;
+}
+.DENIS div {
+    display: block;
+    
+}
+.DENIS div::hover{
+    border: 1px solid #cff308;
+}
+
+.DENIS {
+    margin-bottom: 4px;
+    clear: both;
+    background-color: #763B6F;
+    background-image: url(https://2img.net/i/fa/prosilver_magenta/bg_list.gif);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    border: 2px solid #fbf9fb;
+    padding: 0 5px; 
+}
+.DENIS span.corners-top, span.corners-bottom, span.corners-top span, span.corners-bottom span {
+    font-size: 1px;
+    line-height: 1px;
+    display: block;
+    height: 5px;
+    background-repeat: no-repeat;
+}
+.DENIS span.corners-top {
+    background-image: none;
+    background-position: 0 0;
+    margin: 0 -5px;
+}
+.DENIS span.corners-top {
+    background-image: url(https://2img.net/i/fa/prosilver/corners_left.gif);
+}
+.DENIS ul.topiclist {
+    list-style-type: none;
+    margin: 0;
+    background-image: url(https://2img.net/i/fa/empty.gif);
+    background-repeat: repeat-x;
+    color: #5C577E;
+}
+.DENIS ul.topiclist li {
+    display: flex;
+    margin: 0;
+}
+.DENIS li {
+    text-align: -webkit-match-parent;
+}
+.DENIS li.header dl.icon {
+    min-height: 0;
+}
+.DENIS dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.DENIS dl.icon {
+    min-height: 35px;
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.DENIS dl.icon dt, dl.icon dd.dterm {
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+}
+.DENIS ul.topiclist dt, ul.topiclist dd.dterm {
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 1.1em;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+.DENIS .table-title, .table-title h2 {
     display: inline;
     font-size: 1em;
     color: #fff;
 }
 
+.DENIS dd.topics{
+    width: 8%;
+    
+}
+.DENIS .CONTENEDOR{
+    display: flex;
+}
+.DENIS .TEMASD{
+    color: #fff;
+    width: 150px;
+}
+.DENIS .MENSAJESD{
+    color: #fff;
+    width: 150px;
+}
+.DENIS .ULTIMOSD{
+    color: #fff;
+    width: 150px;
+}
+.DENIS ul.forums {
+    background-color: #F4EFF4;
+    background-image: none;
+}
+
+/*--ARRIBA--*/
+
+.DENIS h3, .h3 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #763B6F;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    font-size: 1.05em;
+    color: #763B6F;
+    margin-top: 20px;
+}
+.DENIS .hierarchy {
+    display: inline;
+    text-transform: none;
+    border: none;
+    font-size: 1em!important;
+}
+.DENIS h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 a.forumtitle {
     color: #5A2D6C;
     font-family: Arial,Helvetica,sans-serif;
@@ -435,6 +564,18 @@ ul.pmlist dt {
     padding-left: 45px;
 }
 
+.DENIS a:visited {
+    color: #58236b;
+    text-decoration: none;
+}
+.DENIS li.row {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #fff;
+    padding: auto;
+}
+.DENIS element.style {
+    background: url(https://2img.net/i/fa/prosilver_magenta/forum_read.gif) no-repeat scroll 10px 50%;
+}
 .hierarchy {
     display: inline;
     text-transform: none;
@@ -480,3 +621,71 @@ span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom s
     height: 5px;
     background-repeat: no-repeat;
 }
+.DENIS h3, .h3 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #763B6F;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    font-size: 1.05em;
+    color: #f7f1f6;
+    margin-top: 20px;
+}
+.DENIS h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.DENIS .CONTENEDOR-ARRIBA, .CONTENEDOR-ABAJO{
+    display: flex;
+}
+.DENIS .grid{
+    display: grid;
+    grid-template-columns: 45% 25% 25% 10%;
+}
+.DENIS .puntito{
+    color: #fcf8f8;
+    width: 150px;
+}
+.DENIS .TEMASD-ARRIBA{
+
+    color: #3c3838;
+    width: 150px;
+}
+.DENIS .MENSAJESD-ARRIBA{
+    color: #3c3838;
+    width: 150px;
+}
+.DENIS .ULTIMOSD-ARRIBA{
+    color: #3c3838;
+    width: 150px;
+}
+.DENIS span.corners-bottom {
+    background-image: none;
+    background-position: 0 100%;
+    margin: 0 -5px;
+    clear: both;
+}
+.DENIS span.corners-bottom {
+    background-image: url(https://2img.net/i/fa/prosilver/corners_left.gif);
+}
+
+.DENIS .TEMASD-ABAJO{
+
+    color: #3c3838;
+    width: 150px;
+}
+.DENIS .MENSAJESD-ABAJO{
+    color: #3c3838;
+    width: 150px;
+}
+.DENIS .ULTIMOSD-ABAJO{
+    color: #3c3838;
+    width: 150px;
+}
+/*PRUEBA NEON*/
