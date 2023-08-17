@@ -787,3 +787,13 @@ span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom s
     .Ivan-papa .Pie-pagina a{
     text-decoration: none;
     }
+    #DENIS{
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+        color: #5C577E;
+        background-color: #fff;
+        background-image: url(https://2img.net/i/fa/empty.gif);
+        background-attachment: scroll;
+        font-size: 10px;
+        height: auto;
+        padding: 10px 0;
+    }
