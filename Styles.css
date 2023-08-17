@@ -294,7 +294,6 @@ h2 {
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-weight: 400;
     color: #5A2D6C;
-    font-size: 2em;
     margin: .8em 0 .2em;
 }
 
@@ -418,7 +417,7 @@ h1.solo {
     border-bottom: 1px solid #763B6F;
     margin-bottom: 3px;
     padding-bottom: 2px;
-    font-size: 1.05em;
+    font-size: 1em;
     color: #763B6F;
     margin-top: 20px;
 }
@@ -654,15 +653,15 @@ span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom s
 }
 .DENIS .TEMASD-ARRIBA{
 
-    color: #3c3838;
+    color: #5C577E;
     width: 150px;
 }
 .DENIS .MENSAJESD-ARRIBA{
-    color: #3c3838;
+    color: #5C577E;
     width: 150px;
 }
 .DENIS .ULTIMOSD-ARRIBA{
-    color: #3c3838;
+    color: #5C577E;
     width: 150px;
 }
 .DENIS span.corners-bottom {
@@ -677,15 +676,15 @@ span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom s
 
 .DENIS .TEMASD-ABAJO{
 
-    color: #3c3838;
+    color: #5C577E;
     width: 150px;
 }
 .DENIS .MENSAJESD-ABAJO{
-    color: #3c3838;
+    color: #5C577E;
     width: 150px;
 }
 .DENIS .ULTIMOSD-ABAJO{
-    color: #3c3838;
+    color: #5C577E;
     width: 150px;
 }
 /*PRUEBA NEON*/
