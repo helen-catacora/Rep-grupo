@@ -1,5 +1,9 @@
 div {
     display: block;
+    
+}
+div::hover{
+    border: 1px solid #cff308;
 }
 * {
     margin: 0;
@@ -70,7 +74,7 @@ ul.topiclist dt, ul.topiclist dd.dterm {
     width: 50%;
     font-size: 1.1em;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 50px;
 }
 .table-title, .table-title h2 {
     display: inline;
@@ -176,6 +180,14 @@ h3 {
 .CONTENEDOR-ARRIBA, .CONTENEDOR-ABAJO{
     display: flex;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 45% 25% 25% 10%;
+}
+.puntito{
+    color: #fcf8f8;
+    width: 150px;
+}
 .TEMASD-ARRIBA{
 
     color: #3c3838;
@@ -199,4 +211,17 @@ span.corners-bottom {
     background-image: url(https://2img.net/i/fa/prosilver/corners_left.gif);
 }
 
+.TEMASD-ABAJO{
+
+    color: #3c3838;
+    width: 150px;
+}
+.MENSAJESD-ABAJO{
+    color: #3c3838;
+    width: 150px;
+}
+.ULTIMOSD-ABAJO{
+    color: #3c3838;
+    width: 150px;
+}
 /*PRUEBA NEON*/
