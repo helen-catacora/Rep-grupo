@@ -67,10 +67,10 @@ dl.icon dt, dl.icon dd.dterm {
 ul.topiclist dt, ul.topiclist dd.dterm {
     display: block;
     float: left;
-    width: 60%;
+    width: 50%;
     font-size: 1.1em;
-    padding-left: 50px;
-    padding-right: 285px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .table-title, .table-title h2 {
     display: inline;
@@ -103,7 +103,42 @@ ul.forums {
 
 /*--ARRIBA--*/
 
-  
+h3, .h3 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #763B6F;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    font-size: 1.05em;
+    color: #763B6F;
+    margin-top: 20px;
+}
+.hierarchy {
+    display: inline;
+    text-transform: none;
+    border: none;
+    font-size: 1em!important;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a.forumtitle {
+    color: #5A2D6C;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:visited {
+    color: #58236b;
+    text-decoration: none;
+}
 li.row {
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #fff;
@@ -143,15 +178,15 @@ h3 {
 }
 .TEMASD-ARRIBA{
 
-    color: #fff;
+    color: #3c3838;
     width: 150px;
 }
 .MENSAJESD-ARRIBA{
-    color: #fff;
+    color: #3c3838;
     width: 150px;
 }
 .ULTIMOSD-ARRIBA{
-    color: #fff;
+    color: #3c3838;
     width: 150px;
 }
 span.corners-bottom {
@@ -163,3 +198,5 @@ span.corners-bottom {
 span.corners-bottom {
     background-image: url(https://2img.net/i/fa/prosilver/corners_left.gif);
 }
+
+/*PRUEBA NEON*/
