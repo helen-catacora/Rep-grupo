@@ -8,140 +8,63 @@ html {
     height: 100%
 }
 
-    body {
-        padding: 0;
-        margin: 0;
-        font-size: 10pt
-    }
-.divirtiendonos{
-    margin-bottom: 4px;
-    clear: both;
-    background-color: #763B6F;
-    background-image: url(https://2img.net/i/fa/prosilver_magenta/bg_list.gif);
-    background-repeat: repeat-x;
-    background-position: 0 0;
-    border: 2px solid #fff;
-    padding: 0 5px;
-}
-
-
-.navbar {
-    clear: both;
-    background-color: #DED2E3;
-    padding: 0 10px
-}
-
-ul.navlinks {
-    border-bottom: 1px solid #fff;
-    font-weight: 700;
-    text-align: left
-}
-
-ul.borderless {
-    border-bottom: 0
-}
-
-ul.linklist li {
-    list-style-type: none;
-    width: auto;
-    font-size: 1.1em;
-    line-height: 2.2em;
-    display: inline
-}
-
-ul.linklist li a img {
-    vertical-align: middle
-}
-
-.search-box {
-    margin-top: 3px;
-    margin-left: 5px;
-    float: left
-}
-
-#search-box {
-    margin-top: 10px;
-    margin-right: 5px;
-    float: right;
-    white-space: nowrap
-}
-
-* html #search-box {
-    margin-right: 35px
-}
-
-#search-box #keywords {
-    width: 95px;
-    background-color: #fff
-}
-
-#search-box input {
-    border: 1px solid #BCBCBC
-}
-
-#search-box input.button1 {
-    padding: 1px 5px
-}
-
-input.search {
-    background: url(https://2img.net/i/fa/sprite_prosilver_navbar.png) no-repeat top left;
-    background-position: 0 -701px;
-    padding-left: 17px
-}
-
-ul.linklist li.rightside {
-    float: right;
-    text-align: right
-}
-
-ul.linklist li.footer-home {
-    float: left
-}
-
-p.rightside {
-    float: right;
-    margin-right: 5px
-}
-
-dl.codebox {
-    padding: 3px;
-    background-color: #FFF;
-    border: 1px solid #C9D2D8;
-    font-size: 1em
-}
-
-dl.codebox dt {
-    text-transform: uppercase;
-    border-bottom: 1px solid #CCC;
-    margin-bottom: 3px;
-    font-size: .8em;
-    font-weight: 700;
-    display: block
-}
-
-blockquote dl.codebox {
-    margin-left: 0
-}
-
-blockquote.tiktok-embed {
-    background: none;
-    padding: 0
-}
-
-dl.codebox code {
-    overflow: auto;
-    display: block;
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #5C577E;
+    background-color: #fff;
+    background-image: url(https://2img.net/i/fa/empty.gif);
+    background-attachment: scroll;
+    font-size: 10px;
     height: auto;
-    max-height: 200px;
-    white-space: normal;
-    padding-top: 5px;
-    font: .9em Courier,CourierNew,sans-serif;
-    line-height: 1.3em;
-    color: #2E8B57;
-    margin: 2px 0
+    padding: 10px 0;
 }
 
-.forabg {
+h1.page-title {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #5A2D6C;
+    font-size: 2em;
+    margin: .8em 0 .2em
+}
+
+h1.gallery-title {
+    display: inline;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700
+}
+
+h2 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #5A2D6C;
+    font-size: 2em;
+    margin: .8em 0 .2em
+}
+
+h1.solo {
+    margin-bottom: 1em
+}
+
+.table-title,.table-title h2 {
+    display: inline;
+    font-size: 1em;
+    color: #fff
+}
+
+a.forumtitle {
+    color: #5A2D6C;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none
+}
+
+ul {
+    list-style-type: none
+}
+
+.divirtiendonos {
     margin-bottom: 4px;
     clear: both;
     background-color: #763B6F;
@@ -152,32 +75,6 @@ dl.codebox code {
     padding: 0 5px
 }
 
-.fbg2 {
-    border-radius: 8px;
-    padding-bottom: 4px
-}
-
-
-
-*+ html .forabg {
-    min-height: 1px
-}
-
-.forumbg {
-    background-color: #763B6F;
-    background-image: url(https://2img.net/i/fa/prosilver_magenta/bg_list.gif);
-    background-repeat: repeat-x;
-    background-position: 0 0;
-    border: 2px solid #fff;
-    padding: 0 5px;
-    margin-bottom: 4px;
-    clear: both
-}
-
-
-.forumbg table.table1 {
-    margin: 0 -2px -1px -1px
-}
 
 ul.topiclist {
     list-style-type: none;
@@ -187,19 +84,143 @@ ul.topiclist {
     color: #5C577E
 }
 
-* html ul.topiclist {
-    height: 1%
-}
-
-*+ html ul.topiclist {
-    min-height: 1px
-}
-
 ul.topiclist li {
     display: block;
     margin: 0
 }
 
-* html ul.topiclist li {
-    position: relative
+ul.topiclist li.row dl {
+    padding: 2px 0
+}
+
+ul.forums li.row dl {
+    min-height: 0
+}
+
+ul.topiclist dt,ul.topiclist dd.dterm {
+    display: block;
+    float: left;
+    width: 60%;
+    font-size: 1.1em;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+ul.topiclist dfn {
+    display: none
+}
+
+ul.topics li.header dl.icon dt {
+    padding-right: 50px
+}
+
+ul.topics dt,ul.topics dd.dterm {
+    padding-left: 45px;
+    display: block;
+    float: left;
+    width: 50%
+}
+
+ul.topics dd {
+    display: block;
+    float: left
+}
+
+ul.forums {
+    background-color: #F4EFF4;
+    background-image: none
+}
+ul.forums dd {
+    border-color: #fff;
+    border-left-style: solid;
+    border-left-width: 1px
+}
+
+
+li.header dt,li.header dd {
+    line-height: 1em;
+    border-left-width: 0;
+    margin: 2px 0 4px;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 1em;
+    font-family: Arial,Helvetica,sans-serif,Verdana,Arial,Helvetica,sans-serif;
+    text-transform: uppercase
+}
+
+li.row {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff
+}
+
+li.row:hover {
+    background-color: #F6F4D0
+}
+
+
+ul.topiclist dd {
+    border-left: 1px solid #fff;
+    display: block;
+    float: left;
+    padding: 4px 0
+}
+
+ul.topiclist li.header dl dd {
+    border: none
+}
+
+dd.lastpost span,ul.topiclist dd.searchby span,ul.topiclist dd.info span,ul.topiclist dd.time span,dd.redirect span,dd.moderation span {
+    display: block;
+    padding-left: 5px
+}
+
+ul.pmlist dt {
+    padding-left: 45px
+}
+
+.hierarchy {
+    display: inline;
+    text-transform: none;
+    border: none;
+    font-size: 1em!important
+}
+
+dd.lastpost {
+    width: 20%;
+    font-size: 1.1em
+}
+
+dd.posts,dd.topics,dd.views {
+    width: 8%;
+    text-align: center;
+    line-height: 2.2em;
+    font-size: 1.2em;
+    border: none
+}
+
+#tabs:after,.post:after,.navbar:after,fieldset dl:after,ul.topiclist dl:after,ul.linklist:after,dl.polls:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+table span.gen {
+    margin-left: 5px
+}
+
+span.corners-top {
+    background-image: none;
+    background-position: 0 0;
+    margin: 0 -5px;
+}
+
+span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom span {
+    font-size: 1px;
+    line-height: 1px;
+    display: block;
+    height: 5px;
+    background-repeat: no-repeat
 }
