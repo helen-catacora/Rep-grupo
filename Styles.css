@@ -120,6 +120,8 @@ body{
 }
 
 
+
+
 /*Header*/
 #cabecera{
     display: flex;
@@ -261,18 +263,12 @@ h1{
     font-size: 0.7em;
 }
 
-
-
-
 #Huascar{
     font-family: Verdana,Arial,Helvetica,sans-serif;
     color: #5C577E;
     background-color: #fff;
     background-image: url(https://2img.net/i/fa/empty.gif);
     background-attachment: scroll;
-    font-size: 10px;
-    height: auto;
-    padding: 10px 0;
 }
 
 h1.page-title {
@@ -688,3 +684,106 @@ span.corners-top,span.corners-bottom,span.corners-top span,span.corners-bottom s
     width: 150px;
 }
 /*PRUEBA NEON*/
+
+/*veizan e ivan */
+.cajaImagenes *{
+    box-sizing: border-box;
+}
+.cajaImagenes {
+    border-radius: 0.4%;
+    padding: 0%;
+    border: 5px solid #763B6F; 
+    margin: 0;
+}
+.cajaImagenes .title {
+    display: inline-block;
+    background-color: #763B6F;
+    width: 100%;
+}
+.cajaImagenes .title h2 {
+    display: inline;
+    font-size: 1em;
+}
+.cajaImagenes img{
+    width: 100%;
+    box-shadow: 5px 2px 5px 2px rgb(183, 181, 181);
+}
+
+.cajaImagenes .container{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: 500px;
+}
+.cajaImagenes .colum{
+    flex: 25%;
+    padding: 5px;
+}
+.cajaImagenes .colum img {
+    margin-top: 5px;    
+}
+@media (max-width: 800px){
+    .colum{
+        flex: 50%;
+    }
+}
+@media (max-width: 600px){
+    .colum{
+        flex: 100%;
+    }
+}
+/*Footer*/
+.Ivan-papa{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #5C577E;
+    background-color: #fff;
+    font-size: 10px;
+    height: auto;
+    padding: 10px 0;
+}
+.Ivan-papa h3 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #763B6F;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    font-size: 1.05em;
+    color: #763B6F;
+    margin-top: 20px;
+    }
+    .Ivan-papa p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+    
+    .Ivan-papa .notes{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .Ivan-papa .notes img{
+    vertical-align: middle;
+    }
+    
+    .Ivan-papa .Pie-pagina {
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px;
+    overflow: hidden;
+    background-color:#ded2e3;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    }
+    
+    .Ivan-papa .Info-der{
+    margin-left: 5px;
+    }
+    
+    .Ivan-papa .Pie-pagina a{
+    text-decoration: none;
+    }
