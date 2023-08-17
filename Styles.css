@@ -6,12 +6,13 @@
 
 body{
     overflow-y: scroll;
+    min-width: 775px;
 }
 
 .toolbar{
     margin-top: -2.3em;
     position:fixed !important;
-    height: 32px;
+    height: 34px;
     width: 100%;
     background-color: #333333;
     color: #fff;}
@@ -20,7 +21,9 @@ body{
 .toolbar .icon-foro{
     display: inline-block!important;
     visibility: visible!important;
-    background-image: url(https://2img.net/i/fa/i/toolbar/pa0.png) no-repeat 30px;
+    background-image: url(https://2img.net/i/fa/i/toolbar/pa0.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
     width: 30px;
     height: 30px;
 }
@@ -46,6 +49,7 @@ body{
     border-radius: 5px;
     margin-top: -3px;
     padding-left: 30px;
+    border: transparent;
 }
 
 .Buscar .lupa , .share .icon-fb ,.share .icon-tw ,
@@ -115,13 +119,14 @@ body{
     background-position: -210px 0 !important;
 }
 
+
 /*Header*/
 #cabecera{
+    display: flex;
     margin: 36px 0.8em 0 0.8em;
     border-radius: 6px;
     padding: 0.5em;
     background:linear-gradient(#763c70,#9f5897,#a25b9a) ;
-    display: flex;
 }
 
 #cabecera .text-cabecera{
@@ -255,6 +260,7 @@ h1{
     margin:5px 0px;
     font-size: 0.7em;
 }
+
 
 
 /*Asignatura*/
