@@ -12,6 +12,7 @@
 .title {
     display: inline-block;
     background-color: #763B6F;
+    width: 100%;
 }
 .title h2 {
     display: inline;
