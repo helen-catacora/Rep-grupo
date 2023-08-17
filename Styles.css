@@ -6,17 +6,20 @@
     padding: 0%;
     border: 5px solid #763B6F; 
     overflow: scroll;
+    height: 600px;
+    margin: 0;
 }
 .title {
     display: inline-block;
     background-color: #763B6F;
 }
-body{
-    margin: 20;
-    padding: 0;
+.title h2 {
+    display: inline;
+    font-size: 1em;
 }
 img{
     width: 100%;
+
 
 }
 .container{
